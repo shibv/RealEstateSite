@@ -58,7 +58,7 @@
 
 
 .hero-container{
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: flex-end;
 
 }
@@ -68,4 +68,31 @@
     overflow: hidden;
     border-radius: 15rem 15rem 0 0;
     border: 8px solid rgba(255, 255 , 255 , 0.12);
+}
+
+@media (max-width: 640px) {
+    .hero-container{
+        margin-top: 2em;
+    }
+    .hero-title>h1{
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+    .image-conatiner{
+        width: 95%;
+        height: 25rem;
+    }
+    .stats{
+        justify-content: center;
+        gap: 1.5em;
+    }
+    .hero-right{
+       width: 100%;
+    }
+    .stats:nth-child(1){
+        font-size: 1.5em;
+    }
+    .stats:nth-child(2){
+        font-size: 0.8em;
+    }
 }
