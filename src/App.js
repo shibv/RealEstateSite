@@ -1,6 +1,9 @@
 
 import './App.css';
 import Companies from './components/Companies/Companies';
+import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
+import Getstarted from './components/GetStarted/Getstarted';
 import Header from './components/Header/Header';
 import Residencies from './components/Residencies/Residencies';
 import Value from './components/Value/Value';
@@ -20,6 +23,9 @@ function App() {
        <Companies />
        <Residencies />
        <Value />
+       <Contact />
+       <Getstarted />
+       <Footer/>
     </div>
   );
 }
